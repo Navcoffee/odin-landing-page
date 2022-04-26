@@ -2,7 +2,7 @@ body {
     min-height: 100vh;
     margin: 0%;
     overflow: auto;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -11,8 +11,71 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
 }
+
+.first-quarter,
+.second-quarter,
+.third-quarter,
+.fourth-quarter {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    min-height: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-quarter,
+footer {
+    background-color: #1f2937;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.header-links,
+#section-one-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button,
+#section-four {
+    background-color: #3882f6;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.third-quarter {
+    background-color: #E5E7EB;
+}
+
+.third-quarter p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
