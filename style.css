@@ -35,11 +35,16 @@ footer {
     min-height: 20%;
     display: flex;
     justify-content: space-around;
+    color: #F9FAF8;
 }
 
 .first-quarter,
 footer {
     background-color: #1f2937;
+}
+
+footer {
+    font-size: 20px;
 }
 
 h1 {
@@ -57,17 +62,17 @@ h1 {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
-button,
-#section-four {
-    background-color: #3882f6;
-}
-
-h2 {
+.second-quarter h2 {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+}
+
+.second-quarter .text {
+    color: #515151;
 }
 
 .third-quarter {
@@ -77,7 +82,46 @@ h2 {
 .third-quarter p {
     font-size: 36px;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 300;
     color: #1f2937;
 }
 
+.third-quarter .text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+button,
+#section-four {
+    background-color: #3882f6;
+    color: #F9FAF8;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-width: medium;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #1d70f7;
+}
+
+.fourth-quarter button {
+    border-color: white;
+}
+
+#section-four {
+    border-style: solid; /* If I remove this, the container becomes smaller, causing the area above it to turn white. Why is it so? */
+    border-color: red;
+}
+
+.image-placeholder {
+    color: #F9FAF8;
+}
